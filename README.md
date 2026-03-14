@@ -42,6 +42,7 @@ Jika nilai memenuhi syarat (60 ke atas), maka angka pada penghitung akan bertamb
 Menampilkan hasil akhir jumlah total mahasiswa yang berhasil melewati ambang batas nilai tersebut.
 
 ## Membuat grafik untuk menggambarkan nilai tertinggi dan terendah
+![alt text](https://github.com/nengahresti14-hub/01-array/blob/main/Foto/Screenshot_2026-03-14-14-07-04-519_com.android.chrome-edit.jpg?raw=true)
 
 #### import matplotlib.pyplot as plt
 Memanggil library (perpustakaan kode) Matplotlib yang berfungsi untuk menggambar grafik atau diagram.
@@ -57,3 +58,20 @@ Memberikan judul grafik, label pada garis tegak (Y), dan membatasi rentang angka
 Sebuah perulangan untuk menuliskan angka nilai tepat di atas setiap batang grafik agar lebih mudah dibaca.
 #### ​plt.show()
 Perintah terakhir untuk memunculkan jendela grafik ke layar.
+
+## Membuat grafik untuk menggambarkan data kelulusan
+![alt text](https://github.com/nengahresti14-hub/01-array/blob/main/Foto/Screenshot_2026-03-14-14-07-24-575_com.android.chrome-edit.jpg?raw=true)
+#### Menghitung Total Mahasiswa
+​total_mahasiswa = len(nilai_mahasiswa): Menghitung jumlah total seluruh mahasiswa yang ada di dalam daftar (list).
+#### ​Menghitung Mahasiswa Tidak Lulus
+​jumlah_tidak_lulus = total_mahasiswa - jumlah_lulus: Mencari selisih untuk mengetahui berapa banyak mahasiswa yang tidak mencapai nilai ambang batas.
+#### ​Menyiapkan Data Grafik
+​labels = [...] & sizes = [...]: Menentukan teks keterangan ("Lulus/Tidak Lulus") dan data angka yang akan ditampilkan pada grafik.
+#### ​Membuat Grafik Batang
+​plt.bar(labels, sizes, color=colors): Membuat grafik batang dengan warna hijau untuk yang lulus dan merah untuk yang tidak lulus.
+#### ​Mengatur Batas Sumbu Y
+​plt.ylim(0, total_mahasiswa + 2): Mengatur batas tinggi grafik agar sedikit lebih tinggi dari jumlah total mahasiswa supaya tampilan tidak terpotong.
+#### ​Menampilkan Label Angka
+​plt.text(...): Menaruh angka jumlah mahasiswa tepat di atas masing-masing batang grafik sebagai label data.
+#### ​Menampilkan Visualisasi
+​plt.show(): Menampilkan hasil akhir visualisasi grafik perbandingan kelulusan tersebut ke layar.
