@@ -1,1 +1,1 @@
-# 01-array
+penjelasan array
