@@ -20,3 +20,12 @@ Menampilkan teks ke layar yang berisi hasil nilai paling besar yang sudah ditemu
 
 #### print(f"Nilai terendah{nilai_terendah}")
 Menampilkan teks ke layar yang berisi hasil nilai paling kecil yang sudah ditemukan tadi.
+
+## Mencari Rata Rata Nilai
+![alt text](https://github.com/nengahresti14-hub/01-array/blob/main/Foto/Screenshot_2026-03-14-11-00-33-333_com.android.chrome-edit.jpg?raw=true)
+#### rata_rata = sum(nilai_mahasiswa) / len(nilai_mahasiswa)
+Baris ini menjumlahkan seluruh angka di dalam daftar (sum) lalu membaginya dengan total jumlah data yang ada (len atau length) untuk mendapatkan nilai tengah.
+#### print(f"Rata-rata nilai: {rata_rata}")
+Menampilkan hasil perhitungan pembagian tersebut ke layar dengan format teks.
+
+## Menghitung jumlah mahasiswa lulus dengan ketentuan nilai di atas atau sama dengan 60 lulus
