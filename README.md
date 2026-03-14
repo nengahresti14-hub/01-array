@@ -83,3 +83,15 @@ Perintah terakhir untuk memunculkan jendela grafik ke layar.
 ![alt text](https://github.com/nengahresti14-hub/01-array/blob/main/Foto/Screenshot_2026-03-14-16-58-51-326_com.android.chrome-edit.jpg?raw=true)
 ![alt text](https://github.com/nengahresti14-hub/01-array/blob/main/Foto/Screenshot_2026-03-14-16-59-10-178_com.android.chrome-edit.jpg?raw=true)
 
+# Analisa Kompleksitas
+#### Input Mahasiswa (O(n))
+​Kompleksitasnya O(n) karena menggunakan perulangan for untuk proses input dan append data sebanyak n kali sesuai jumlah mahasiswa.
+#### Menentukan Kelulusan (O(n))
+​Kompleksitasnya O(n) karena program harus melakukan iterasi untuk memeriksa setiap nilai mahasiswa satu per satu guna menentukan status kelulusannya
+#### Nilai Max, Min, dan Rata-rata (O(n))
+​Kompleksitasnya O(n) karena fungsi max(), min(), dan sum() perlu menyisir seluruh elemen dalam array. Sementara itu, len() memiliki kompleksitas O(1) karena hanya membaca properti panjang array.
+#### Pembuatan Grafik (O(1)). 
+​Kompleksitasnya O(1) karena data yang ditampilkan pada grafik (seperti perbandingan tertinggi/terendah) jumlah batangnya tetap dan tidak bertambah meskipun jumlah elemen dalam array mahasiswa meningkat.
+
+# Refleksi pembelajaran
+hal yan di pelahari Penggunaan struktur data array dan perulangan yang memungkinkan pengolahan data mahasiswa secara efisien. Dan juga visualisasi grafik mempermudahkan analisis dan penyajian informasi nilai. 
