@@ -75,3 +75,11 @@ Perintah terakhir untuk memunculkan jendela grafik ke layar.
 ​plt.text(...): Menaruh angka jumlah mahasiswa tepat di atas masing-masing batang grafik sebagai label data.
 #### ​Menampilkan Visualisasi
 ​plt.show(): Menampilkan hasil akhir visualisasi grafik perbandingan kelulusan tersebut ke layar.
+# HASIL SCREENSHOT
+![alt text](https://github.com/nengahresti14-hub/01-array/blob/main/Foto/Screenshot_2026-03-14-16-56-25-719_com.android.chrome-edit.jpg?raw=true)
+![alt text](https://github.com/nengahresti14-hub/01-array/blob/main/Foto/Screenshot_2026-03-14-16-56-40-333_com.android.chrome-edit.jpg?raw=true)
+![alt text](https://github.com/nengahresti14-hub/01-array/blob/main/Foto/Screenshot_2026-03-14-16-57-00-978_com.android.chrome-edit.jpg?raw=true)
+![alt text](https://github.com/nengahresti14-hub/01-array/blob/main/Foto/Screenshot_2026-03-14-16-58-09-532_com.android.chrome-edit.jpg?raw=true)
+![alt text](https://github.com/nengahresti14-hub/01-array/blob/main/Foto/Screenshot_2026-03-14-16-58-51-326_com.android.chrome-edit.jpg?raw=true)
+![alt text](https://github.com/nengahresti14-hub/01-array/blob/main/Foto/Screenshot_2026-03-14-16-59-10-178_com.android.chrome-edit.jpg?raw=true)
+
