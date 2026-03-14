@@ -29,3 +29,14 @@ Baris ini menjumlahkan seluruh angka di dalam daftar (sum) lalu membaginya denga
 Menampilkan hasil perhitungan pembagian tersebut ke layar dengan format teks.
 
 ## Menghitung jumlah mahasiswa lulus dengan ketentuan nilai di atas atau sama dengan 60 lulus
+
+#### ​jumlah_lulus = 0
+Menyiapkan sebuah variabel penghitung (counter) yang dimulai dari angka nol untuk mencatat berapa banyak mahasiswa yang lulus.
+#### ​for nilai in nilai_mahasiswa:
+Melakukan pengecekan satu per satu terhadap setiap angka yang ada di dalam daftar (list) nilai.
+#### ​if nilai >= 60:
+Sebuah syarat (kondisi) di mana hanya nilai yang sama dengan atau lebih besar dari 60 yang akan diproses lebih lanjut.
+#### ​jumlah_lulus += 1
+Jika nilai memenuhi syarat (60 ke atas), maka angka pada penghitung akan bertambah 1.
+#### ​print(f"Jumlah mahasiswa yang lulus: {jumlah_lulus}")
+Menampilkan hasil akhir jumlah total mahasiswa yang berhasil melewati ambang batas nilai tersebut.
